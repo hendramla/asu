@@ -222,7 +222,7 @@ wget -O /opt/marzban/docker-compose.yml "https://raw.githubusercontent.com/hendr
 apt -y install vnstat
 /etc/init.d/vnstat restart
 apt -y install libsqlite3-dev
-wget https://github.com/vergoh/vnstat/releases/download/v2.12/vnstat-2.12.tar.gz
+wget https://github.com/GawrAme/MarLing/raw/main/vnstat-2.6.tar.gz
 tar zxvf vnstat-2.6.tar.gz
 cd vnstat-2.6
 ./configure --prefix=/usr --sysconfdir=/etc && make && make install 
